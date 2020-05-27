@@ -24,3 +24,12 @@ Now, On which size of matrix depends upon?
 Check in every fn call which variables are changing.
 Now initialize complete matrix with -1
 Now before calling any function first check whether at T[m][n] is there value present present but not -1. Then simply return that value or else call the funtion and save that returned value to T[m][n]. 
+
+
+Variants of Knapsack problem
+1. Subset sum problem
+2. Equal sum problem
+3. Count of subset sum
+4. Minimum subset sum off
+5. Target sum
+6. Number of subset <= given difference
