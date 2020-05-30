@@ -36,6 +36,6 @@ int main()
   vector<int> arr = {1, 1, 2, 3};
   int diff = 1;
   int sum = 7;
-  int s1 = (diff+sum)/2;
+  int s1 = (diff + sum) / 2;
   cout << subsetSum(arr, s1, arr.size());
 }
