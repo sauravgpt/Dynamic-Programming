@@ -10,7 +10,7 @@ int LCS(string a, string b, int n, int m)
     {
       if (i == 0 || j == 0)
         T[i][j] = 0;
-      else if (a[i - 1] == b[i - 1])
+      else if (a[i - 1] == b[j - 1])
         T[i][j] = 1 + T[i - 1][j - 1];
       else
         T[i][j] = max(T[i - 1][j], T[i][j - 1]);
