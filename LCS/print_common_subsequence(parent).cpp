@@ -10,18 +10,19 @@ string LCS(string a, string b, int n, int m)
     {
       if (i == 0 || j == 0)
         T[i][j] = 0;
-      else if (a[i - 1] == b[i - 1])
+      else if (a[i - 1] == b[j - 1])
         T[i][j] = 1 + T[i - 1][j - 1];
       else
         T[i][j] = max(T[i - 1][j], T[i][j - 1]);
     }
   }
+
   string res = "";
 
   int i = n, j = m;
   while (i > 0 && j > 0)
   {
-    if (a[i - 1] == b[i - 1])
+    if (a[i - 1] == b[j - 1])
     {
       res = a[i - 1] + res;
       i--;
@@ -41,15 +42,7 @@ string LCS(string a, string b, int n, int m)
 
 int main()
 {
-  int t;
-  cin >> t;
-  while (t--)
-  {
-    string a, b;
-    int n, m;
-    cin >> n >> m;
-    cin >> a >> b;
-    cout << LCS(a, b, n, m) << "\n";
-  }
-  return 0;
+  string str1, str2;
+  cin >> str1 >> str2;
+  cout << LCS(str1, str2, str1.length(), str2.length());
 }
