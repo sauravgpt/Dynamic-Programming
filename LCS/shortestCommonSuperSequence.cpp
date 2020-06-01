@@ -14,7 +14,7 @@ int SCS(string a, string b, int n, int m){
     }
   }
 
-  return m+n-T[i][j];
+  return m+n-T[n][m];
 }
 
 int main(){
