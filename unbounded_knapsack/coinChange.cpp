@@ -15,7 +15,7 @@ int coin(int arr[], int A, int n)
       else if (arr[i - 1] <= j)
         T[i][j] = T[i][j - arr[i - 1]] + T[i - 1][j];
       else
-        T[i][j] = T[i - 1][j];
+        T[i][j] = T[i - 1][j]; 
     }
   }
   return T[n][A];
