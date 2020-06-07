@@ -12,7 +12,7 @@ int minChange(int C[], int V, int n)
         T[i][j] = INT_MAX - 1;
       else if (j == 0)
         T[i][j] = 0;
-      else if (C[i - 1] <= V)
+      else if (C[i - 1] <= j)
       {
         T[i][j] = min(T[i][j - C[i - 1]] + 1, T[i - 1][j]);
       }
