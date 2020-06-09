@@ -24,3 +24,11 @@ func solve(A[], i, j){
 2. Find right base condition
 3. Move k -> i to j
 4. Find extra cost (A[i-1] * A[k] * A[j])
+
+
+Variants of MCM Based questions:
+1. Cost of multiplication of matrices
+2. Evaluate Expression true
+3. Palindrome Partitioning
+4. Scrambled String
+5. Egg Drop
