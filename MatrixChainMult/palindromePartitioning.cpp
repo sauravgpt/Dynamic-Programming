@@ -60,7 +60,7 @@ int palindromePartitioning(string a, int i, int j)
 int main()
 {
   memset(T, -1, sizeof(T));
-  string a = "abaaa";
+  string a = "ababbbabbababa";
   cout << palindromePartitioning(a, 0, a.length() - 1) << endl;
   cout << x;
 }

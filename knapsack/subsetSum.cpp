@@ -19,7 +19,7 @@ bool subsetSum(vector<int> &arr, int sum, int n)
       else
         T[i][j] = T[i-1][j];
     }
-  }z
+  }
   return T[n][sum];
 }
 
