@@ -20,6 +20,12 @@ int knapsack(int wt[], int val[], int W, int n){
       }
     }
   }
+  
+  for(int i=0; i<n+1; i++)
+  	for(int j=0; j<W+1; j++){
+  		cout << T[i][j];
+  	cout << "\n";
+  	}
 
   return T[n][W];
 }
