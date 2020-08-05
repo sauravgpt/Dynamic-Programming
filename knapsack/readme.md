@@ -9,7 +9,7 @@ To get started for DP we have two ways:-
 
 I suggest you to never start with top down approach.
 Best approach to start is Recursive + Memoization
-It's easy to thing and is powerful as top down approach
+It's easy to think and is powerful as top down approach
 
 So, 1st step make a choice diamgram - which will become easiest part to implement
 and then think of base case
