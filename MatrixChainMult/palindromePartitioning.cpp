@@ -1,3 +1,4 @@
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -64,3 +65,4 @@ int main()
   cout << palindromePartitioning(a, 0, a.length() - 1) << endl;
   cout << x;
 }
+```
